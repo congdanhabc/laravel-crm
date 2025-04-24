@@ -219,6 +219,9 @@ return [
         Webkul\User\Providers\UserServiceProvider::class,
         Webkul\Warehouse\Providers\WarehouseServiceProvider::class,
         Webkul\WebForm\Providers\WebFormServiceProvider::class,
+
+        // Other service providers
+        Webkul\ChannelManager\Providers\ChannelManagerServiceProvider::class,
     ])->toArray(),
 
     /*

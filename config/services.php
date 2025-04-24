@@ -30,4 +30,7 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'facebook' => [
+        'verify_token'  => env('FACEBOOK_VERIFY_TOKEN', null), // <<<=== THÊM DÒNG NÀY
+    ],
 ];
