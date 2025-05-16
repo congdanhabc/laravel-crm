@@ -193,7 +193,7 @@ return [
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
@@ -221,7 +221,7 @@ return [
         Webkul\WebForm\Providers\WebFormServiceProvider::class,
 
         // Other service providers
-        Webkul\ChannelManager\Providers\ChannelManagerServiceProvider::class,
+        Webkul\LiveChat\Providers\LiveChatServiceProvider::class,
     ])->toArray(),
 
     /*
